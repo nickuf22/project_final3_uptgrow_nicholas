@@ -384,4 +384,15 @@ footer {
 
     /* End of Nav Settings */
 
+    @keyframes fill {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    aside {
+        width: 30%;
+        float: left;
+        padding: 5%;
+    }
+
 }
