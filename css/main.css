@@ -211,3 +211,11 @@ input[type="reset"]:focus {
 }
 
 /* End of Contact Form */
+footer p {
+    color: white;
+}
+
+footer {
+    background-color: #efefbd;
+    margin-top: 10%;
+}
