@@ -19,22 +19,22 @@ section {
 }
 
 body {
-    background-image: url('images/fleur-pattern.png');
+    background-image: url('../images/fleur-pattern.png');
 }
 
 @font-face {
     font-family: 'Bickham Script Pro Bold';
-    src: url('../font/bickham-script-pro-bold.ttf');
+    src: url('../fonts/bickham-script-pro-bold.ttf');
 }
 
 @font-face {
     font-family: 'PrincesS-AND-THE-FROG';
-    src: url('../font/princess-and-the-frog.ttf');
+    src: url('../fonts/princess-and-the-frog.ttf');
 }
 
 h1 {
     font-family: 'Bickham Script Pro Bold';
-    font-size: 4.5rem;
+    font-size: 5rem;
     padding: 2px 0 20px 0;
     text-align: center;
 }
@@ -43,6 +43,11 @@ h2 {
     font-family: 'PrincesS-AND-THE-FROG', sans-serif;
     font-size: 1.5rem;
     padding: 5px 0 5px 0;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15rem;
 }
 
 p {
