@@ -125,11 +125,6 @@ main {
     margin: auto;
 }
 
-aside {
-    padding: 5%;
-    margin: auto;
-}
-
 /* Beginning of Contact Form Settings */
 fieldset {
     border: 2px solid #dede9c;
@@ -229,4 +224,31 @@ footer {
 .bold {
     font-weight: 700;
     font-style: italic;
+}
+
+@media (min-width: 320px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer p {
+        color: white;
+        font-size: 0.875rem;
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #efefbd;
+        margin-top: 0;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        clear: both;
+    }
+
+    aside {
+        padding: 5%;
+    }
 }
