@@ -120,3 +120,7 @@ li a:hover {
 }
 
 /* End of Nav Settings */
+main {
+    padding: 5%;
+    margin: auto;
+}
