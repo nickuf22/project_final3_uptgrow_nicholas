@@ -24,12 +24,12 @@ body {
 
 @font-face {
     font-family: 'Bickham Script Pro Bold';
-    src: url('bickham-script-pro-bold.ttf');
+    src: url('../font/bickham-script-pro-bold.ttf');
 }
 
 @font-face {
     font-family: 'PrincesS-AND-THE-FROG';
-    src: url('princess-and-the-frog.ttf');
+    src: url('../font/princess-and-the-frog.ttf');
 }
 
 h1 {
@@ -37,4 +37,16 @@ h1 {
     font-size: 4.5rem;
     padding: 2px 0 20px 0;
     text-align: center;
+}
+
+h2 {
+    font-family: 'PrincesS-AND-THE-FROG', sans-serif;
+    font-size: 1.5rem;
+    padding: 5px 0 5px 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px 0 20px 0;
+    line-height: 1.5;
 }
