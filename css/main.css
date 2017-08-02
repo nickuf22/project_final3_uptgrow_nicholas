@@ -19,5 +19,15 @@ section {
 }
 
 body {
-    background-color: #d4f1f9;
+    background-image: url('images/fleur-pattern.png');
+}
+
+@font-face {
+    font-family: 'Bickham Script Pro Bold';
+    src: url('bickham-script-pro-bold.ttf');
+}
+
+@font-face {
+    font-family: 'PrincesS-AND-THE-FROG';
+    src: url('princess-and-the-frog.ttf');
 }
