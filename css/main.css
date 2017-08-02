@@ -252,3 +252,24 @@ footer {
         padding: 5%;
     }
 }
+
+/* Desktop/Tablet Settings */
+
+@media (min-width: 800px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    .flex-item {
+        width: 30%;
+        padding: 0 10px 0 10px;
+    }
+
+
+
+}
