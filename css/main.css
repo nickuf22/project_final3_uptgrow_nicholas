@@ -225,3 +225,8 @@ footer {
     margin-top: 10%;
     padding: 2%;
 }
+
+.bold {
+    font-weight: 700;
+    font-style: italic;
+}
