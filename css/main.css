@@ -55,3 +55,68 @@ p {
     padding: 2px 0 20px 0;
     line-height: 1.5;
 }
+
+header {
+    background-color: #efefbd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav Settings */
+nav {
+    background-color: #efefbd;
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+nav ul li {
+    display: block;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    padding: 1%;
+    color: white;
+}
+
+nav ul li a:active {
+    color: white;
+    padding: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efefbd;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a0c076;
+}
+
+/* End of Nav Settings */
