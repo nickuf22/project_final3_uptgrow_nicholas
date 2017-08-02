@@ -217,7 +217,6 @@ footer p {
 
 footer {
     background-color: #efefbd;
-    margin-top: 10%;
     padding: 2%;
 }
 
@@ -393,6 +392,22 @@ footer {
         width: 30%;
         float: left;
         padding: 5%;
+    }
+
+    .about {
+        width: 50%;
+        float: right;
+    }
+
+    .contact {
+        width: 55%;
+        float: left;
+    }
+
+    .sidebar {
+        width: 15%;
+        float: right;
+        padding: 10%;
     }
 
 }
