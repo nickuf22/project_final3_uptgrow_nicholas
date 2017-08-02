@@ -124,3 +124,90 @@ main {
     padding: 5%;
     margin: auto;
 }
+
+/* Beginning of Contact Form Settings */
+fieldset {
+    border: 2px solid #dede9c;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+legend {
+    padding: 0 5px;
+    color: #dede9c;
+    font-weight: bold;
+}
+
+.label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    border: 2px solid #dede9c;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding-left: 10px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    padding-left: 10px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    padding-left: 10px;
+}
+
+#no {
+    margin-left: 10px;
+}
+
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #84a594;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 100px;
+    display: inline;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+    background-color: #a0c076;
+    color: white;
+}
+
+.formrequiredincomplete {
+    background: #b8b8b8;
+    color: #000000;
+    border: #dede9c 2px solid;
+}
+
+/* End of Contact Form */
