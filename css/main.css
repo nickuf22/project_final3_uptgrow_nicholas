@@ -231,6 +231,11 @@ footer {
     padding: 2%;
 }
 
+.backgroundimage {
+    background-color: rgba(222, 222, 156, 0.6);
+    padding: 2%;
+}
+
 @media (min-width: 320px) {
     .flex-container {
         display: flex;
@@ -414,6 +419,10 @@ footer {
         width: 15%;
         float: right;
         padding: 10%;
+    }
+
+    .backgroundimage {
+        width: 425px;
     }
 
 }
