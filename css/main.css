@@ -130,6 +130,7 @@ fieldset {
     border: 2px solid #dede9c;
     border-radius: 20px;
     padding: 25px;
+    background-color: #dede9c;
 }
 
 legend {
