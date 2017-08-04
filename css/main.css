@@ -226,6 +226,11 @@ footer {
     font-style: italic;
 }
 
+.background {
+    background-color: rgba(222, 222, 156, 0.85);
+    padding: 2%;
+}
+
 @media (min-width: 320px) {
     .flex-container {
         display: flex;
