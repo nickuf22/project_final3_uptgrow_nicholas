@@ -218,7 +218,6 @@ footer p {
 
 footer {
     background-color: #efefbd;
-    padding: 2%;
 }
 
 .bold {
@@ -234,6 +233,11 @@ footer {
 .backgroundimage {
     background-color: rgba(222, 222, 156, 0.6);
     padding: 2%;
+}
+
+.centerimages {
+    display: block;
+    margin: 0 auto;
 }
 
 @media (min-width: 320px) {
@@ -252,20 +256,73 @@ footer {
     footer {
         width: 100%;
         background-color: #efefbd;
-        margin-top: 0;
-        padding-top: 2%;
-        padding-bottom: 1%;
         clear: both;
     }
 
     aside {
         padding: 5%;
     }
+
+    figure img {
+        width: 100%;
+        margin: auto;
+    }
+
+    figcaption {
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 0.75rem;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #cf {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #cf img {
+        position: absolute;
+        left: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    }
+
+    @keyframes cfFadeInOut {
+        0% {
+            opacity: 1;
+        }
+
+        45% {
+            opacity: 1;
+        }
+
+        55% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    #cf img.top {
+        animation-name: cfFadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-direction: alternate;
+    }
+
+    .footerhome {
+        margin-top: 60%;
+    }
 }
 
 /* Desktop/Tablet Settings */
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .flex-container {
         display: flex;
         flex-direction: row;
@@ -276,7 +333,7 @@ footer {
     }
 
     .flex-item {
-        width: 30%;
+        width: 25%;
         padding: 0 10px 0 10px;
     }
 
@@ -405,8 +462,12 @@ footer {
         padding: 5%;
     }
 
+    .homeimages {
+        width: 799px;
+    }
+
     .about {
-        width: 40%;
+        width: 30%;
         float: right;
     }
 
@@ -422,7 +483,7 @@ footer {
     }
 
     .backgroundimage {
-        width: 425px;
+        width: 400px;
     }
 
 }
